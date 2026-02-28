@@ -20,7 +20,7 @@ The **AI Fashion Design Generator** is a generative AI solution designed to make
 * [cite_start]**Deployment:** Streamlit Community Cloud 
 
 ## 📋 How to Run Locally
-1. Clone the repo: `git https://github.com/GaneshUppananthala2005/AI-Fashion-Design-Generator clone AI-Fashion-Generator.git`
+1. Clone the repo: `git https://github.com/GaneshUppananthala2005-Generator clone AI-Fashion-Generator.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Add your Fal.ai API Key to `app.py`.
 4. Run the app: `streamlit run app.py`
