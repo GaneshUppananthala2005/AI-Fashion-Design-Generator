@@ -41,4 +41,4 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 ## 📊 Project Presentation
 [cite_start]The full Capstone Project presentation is included in this repository as `Project_Presentation.pptx`. [cite: 2, 7]
 ## 🤝 Acknowledgements
-This project was developed with the professional support and guidance of the **Edunet Foundation**. Their mentorship in AI and cloud integration was instrumental in bridging the gap between the initial concept and the final functional prototype.
+This project was developed with the professional support and guidance of the **Edunet Foundation**. Their mentorship by ## Dr.Nanthini Mohan Mam  in AI and cloud integration was instrumental in bridging the gap between the initial concept and the final functional prototype.
