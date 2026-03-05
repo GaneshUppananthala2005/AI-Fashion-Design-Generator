@@ -1,6 +1,26 @@
 import streamlit as st
 import requests
 import webbrowser
+import gradio as gr
+import os
+
+# Fetching the token from Secrets
+hf_token = os.getenv("HF_TOKEN")
+
+# Loading a reliable model directly
+# Using AbsoluteReality for high-quality fashion images
+model = gr.load("models/digiplay/AbsoluteReality_v1.8.1", token=hf_token)
+
+# Building the UI
+with gr.Blocks() as demo:
+    gr.Markdown("# 👗 AI Fashion Design Generator")
+    prompt = gr.Textbox(label="Enter Fashion Idea", placeholder="Ex: A red bridal lehenga")
+    btn = gr.Button("Generate Design")
+    output = gr.Image(label="Generated Image")
+    
+    btn.click(fn=model, inputs=prompt, outputs=output)
+
+demo.launch()
 
 # --- CONFIGURATION ---
 # Replace 'YOUR_FAL_KEY' with your actual key from fal.ai
