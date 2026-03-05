@@ -13,7 +13,6 @@ The **AI Fashion Design Generator** is a generative AI solution designed to make
 * **Affordability Match:** Integrated dynamic search to find budget-friendly real-world alternatives.
 * **No-Code/Low-Code Architecture:** Built with Python and Streamlit for rapid deployment.
   
-## title: Fashion Ai Generator
 emoji: 👀
 colorFrom: green
 colorTo: red
@@ -24,7 +23,7 @@ pinned: false
 license: apache-2.0
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Check out the configuration reference at https://huggingface.co/spaces/uganesh/fashion-ai-generator
 
 ## 🛠️ Tech Stack
 * [cite_start]**Frontend:** Streamlit [cite: 28]
