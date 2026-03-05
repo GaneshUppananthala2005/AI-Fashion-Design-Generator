@@ -12,6 +12,19 @@ The **AI Fashion Design Generator** is a generative AI solution designed to make
 * **Style Tagging:** Quick-select buttons for styles like Streetwear, Y2K, and Minimalist.
 * **Affordability Match:** Integrated dynamic search to find budget-friendly real-world alternatives.
 * **No-Code/Low-Code Architecture:** Built with Python and Streamlit for rapid deployment.
+  
+## title: Fashion Ai Generator
+emoji: 👀
+colorFrom: green
+colorTo: red
+sdk: gradio
+sdk_version: 6.8.0
+app_file: app.py
+pinned: false
+license: apache-2.0
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 ## 🛠️ Tech Stack
 * [cite_start]**Frontend:** Streamlit [cite: 28]
